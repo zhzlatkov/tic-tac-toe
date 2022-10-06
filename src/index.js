@@ -71,6 +71,7 @@ class Game extends React.Component {
           squares: squares,
         },
       ]),
+      stepNumber: history.length,
       xIsNext: !this.state.xIsNext,
     });
   }
